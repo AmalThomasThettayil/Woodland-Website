@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin:0px;
+    font-family:'Montserrat', sans-serif;;
+}
+h1{
+font-size: 40px;
+margin: 0px;
+padding: 0px;
+}
+h2{
+    font-size: 60px;
+    margin: 5px;
+padding: 0px;
+}
+p{
+    margin: 10px;
+padding: 0px;
+}
+.header{
+    width: 100%;
+    height: 200 px;
+   background-color: #2c6431;
+   display: flex;
+}
+.wood{
+    color: white;
+    padding-left: 55px;
+}
+.shoe1{
+    max-width: 100%;
+
+}
+.shoe1image{
+    height: 577px;
+}
+.menutop{
+    padding-top: 20px;
+padding-left: 250px;
+}
+.search{
+    padding-left: 100px;
+    padding-top: 10px;  
+}
+.search button:hover{
+    background-color: #193b1b;
+}
+.menutop button:hover{
+    background-color: #193b1b;
+ }
+    .menutop button{
+    font-size: 16px;
+    font-family:'Montserrat', sans-serif;;
+    border: none;
+    background-color: #2c6431;
+    color: white;
+}
+.search button{
+    padding:10px;
+    font-size: 16px;
+    font-family:'Montserrat', sans-serif;;
+    border: none;
+    background-color: #2c6431;
+    color: white;
+}
+.search input{
+    font-size: 16px;
+    font-family:'Montserrat', sans-serif;;
+    height: 30px;
+    width: 200px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.Men,.Women,.Apparels,.Accessories{
+    font-family:'Montserrat', sans-serif;;
+    background-color: black;
+    color: white;
+    width:25%;
+    height: 250px;
+    padding-top: 50px;
+    
+}
+.menu button:hover{
+    background-color: #193b1b;
+}
+.jackets{
+    position: relative; 
+    height: 411px;   
+}
+.jacketsimage{
+    max-width: 100%;
+}
+.trekking{
+    padding-left: 750px;
+    position:absolute;
+    color: white;
+    top: 1px;
+}
+.explore{
+    font-family:'Montserrat', sans-serif;;
+    font-size: 22px;
+    color: white;
+    background-color: #2c6431;
+    height: 50px;
+    width: 200px;
+    border: none;
+}
+.shoebag{
+    display: flex;
+}
+.shoe{
+    position: relative;
+    float: left;
+    height: 412px;
+}
+.bag{
+    position: relative;
+    float: left;
+    height: 412px;
+}
+.bagimage,.shoeimage{
+    width: 100%;
+}
+.shoebutton,.bagbutton{
+    text-align: left;
+    position:absolute;
+    top: 1px;
+    left: 410px;
+    color: white;
+}
+.yellow{
+    position: relative;
+    height: 411px;
+}
+.yellowimage{
+    max-width: 100%;
+}
+.research{
+    position:absolute;
+    bottom: 100px;
+    left:750px;
+   color: white;
+}
+
+.pro{
+    position: relative;
+    height: 404px;
+}
+.proimage{
+    max-width: 100%;
+}
+.planet{
+   text-align: left;                
+    position:absolute;
+    bottom: 50px;
+    right:650px;
+    left: 80px;
+   color: white;
+}
+.lookbook{
+    position: relative;
+    height: 411px;
+}
+.lookimage{
+    max-width: 100%;
+    
+}
+.lookbutton{
+                    
+    position:absolute;
+    bottom: 100px;
+    right:10px;
+   color: white;
+}
+.l{ font-family:'Montserrat', sans-serif;;
+    font-size: 22px;
+    color: white;
+    background-color: #2c6431;
+    height: 50px;
+    width: 400px;
+    border: none;
+}
+hr{
+    background-color: black;
+}
+.footer1{
+    height:120px;
+    padding-left: 80px;
+    color: white;
+    background-color: black;
+}
+h3{
+    font-size: 22px;
+}
+.footer2{
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    padding: 5px;
+}
+li{
+    padding:8px;
+}
+.container{
+    justify-content:space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+    background-color: black;
+    display: flex;
+}
+.rightup{
+    width:350px;
+    display: flex;
+    justify-content:space-between
+}
+.rightdown{
+    padding-top: 20px;
+    width: 350px;
+    justify-content: left;
+   
+}
+.rightdown ::placeholder{
+    color:white;
+    background-color: black;
+    
+}
+.icons{
+    padding-top: 10px;
+    color: white;
+    background-color: #000000;
+
+}
+.container{
+    padding-top: 20px;
+    display: flex;
+}
+.icons i{
+    padding-left: 20px;
+}
+.ser{
+    padding-top: 20px;
+    height: 50px;
+}
+.ser button{
+    border-color: white;
+    color: white;
+    font-family:'Montserrat', sans-serif;;
+    height: 40px;
+    width: 60px;
+    background-color: #2c6431;
+}
+.ser input{
+    border-color: white;
+    color: white;
+    font-family:'Montserrat', sans-serif;;
+    height: 40px;
+    width: 200px;
+    background-color: #040705;
+}
+.line2{
+        background-color: rgb(0, 0, 0);
+}
+.line3{
+    
+    height: 1px;
+    width: 1190px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 80px;
+}
